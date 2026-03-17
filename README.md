@@ -28,3 +28,9 @@ Once launched, the application will display a text-based menu. Simply follow the
 1. Import an image file.
 2. Select the desired processing operation.
 3. Export the output to a new file.
+
+### Viewing YUV Files
+Since the YUV3 format is a custom specification, it cannot be opened by standard image viewers. To view your processed images:
+1. Perform the desired processing on a .yuv file.
+2. Use the Export function to save the final output as a .ppm file.
+3. Open the .ppm file using a standard tool like GIMP or online PPM viewers.
